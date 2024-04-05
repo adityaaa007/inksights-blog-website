@@ -22,7 +22,7 @@ Welcome to Inksights, your go-to platform for writing and reading blogs with eas
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/your-username/inksights.git
+  git clone https://github.com/adityaaa007/inksights.git
    ```
 2. Install dependencies:
   ```bash

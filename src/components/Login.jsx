@@ -20,13 +20,13 @@ function Login() {
   const login = async (data) => {
     setLoading(true);
     setError("");
-    console.log("data: " + data.password);
+    // console.log("data: " + data.password);
     try {
       const session = await authService.loginWithEmail(data);
       if (session) {
         const userData = await authService.getCurrentUser();
 
-        console.log("userData: " + JSON.stringify(userData));
+        // console.log("userData: " + JSON.stringify(userData));
         if (userData) dispatch(authLogin(userData));
         navigate("/");
       }
