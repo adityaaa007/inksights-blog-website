@@ -38,7 +38,7 @@ export class StorageService {
 
   getFilePreview(fileId) {
     const file = this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
-    console.log('file: '+file);
+    // console.log('file: '+file);
     return file;
   }
 }

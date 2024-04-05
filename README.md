@@ -18,21 +18,9 @@ Welcome to Inksights, your go-to platform for writing and reading blogs with eas
 
 🖋️ **Blog Form**: Integration with TinyMCE allows users to compose their blogs with rich text editing capabilities.
 
-## Installation
+## Deployment
 
-1. Clone the repository:
-  ```bash
-  git clone https://github.com/adityaaa007/inksights.git
-   ```
-2. Install dependencies:
-  ```bash
-  cd inksights
-  npm install
-   ```
-3. Start the development server:
-  ```bash
-  npm run dev
-   ```
+This project is deployed on [Vercel](https://vercel.com/). You can access the live website [here](https://inksights-blog-website.vercel.app/).
 
 ## Contributing
 
