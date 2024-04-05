@@ -50,11 +50,11 @@ export default function Post() {
           <img
             src={storageService.getFilePreview(post.featuredImage)}
             alt={post.title}
-            className="rounded-xl bg-black"
+            className="rounded-xl bg-black h-[600px] w-full object-cover"
           />
 
           {isAuthor && (
-            <div className="absolute right-40 text-sm top-6">
+            <div className="absolute right-[32px] text-sm top-6">
               <Link to={`/edit-post/${post.$id}`}>
                 <Button bgColor="bg-orange-600" className="mr-3">
                   Edit
@@ -71,7 +71,7 @@ export default function Post() {
             {post.title}
           </h1>
         </div>
-        <div className="browser-css px-[10%]">{parse(post.content)}</div>
+        <div className="browser-css px-[10%] leading-9">{parse(post.content)}</div>
       </Container>
     </div>
   ) : (
